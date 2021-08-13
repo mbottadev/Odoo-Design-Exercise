@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/56123b8142.js" crossorigin="anonymous"></script>
+    <title>Odoo</title>
+    <link rel="stylesheet" href="assets/style/main.css">
+</head>
+<body>
+
+<!-- HEADER ----------- -->
+
+    <div class="header">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-primary page-margin">
+            <img src="assets/images/odoo-white.svg" alt="" class="logo-resize">
+            <div id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Docs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="buttons-container-navbar">
+                <a href="#" class="nav-link">Sign in</a>
+                <button type="button" class="btn btn-secondary BuyNow"><i class="fas fa-shopping-bag"></i>Buy now</button>
+            </div>
+
+        </nav>           
+        <div class="page-margin ">
+            <div class="row mt-5">
+                <div class="col-7 headerLeftCol">
+                    <h2 class="w-50">Development done right</h2>
+                    <p class="w-50">Build a beautiful, modern website with flexible components built from scratch.</p>
+                    <button type="button" class="btn btn-secondary BuyNow w-25 pt-3 pb-3 font-weight-bold">Get started +</button>
+                    <div class="flexRow" style="height: 25px;">
+                        <p class="align-center" style="height: 100%; min-width: 20%;">Trusted by:</p>
+                        <div class="brandLogos flexRow">
+                            <img class="brandLogosSize" src="assets/images/google-white.svg" alt="Google">
+                            <img class="brandLogosSize" src="assets/images/spotify-white.svg" alt="Spotify">
+                            <img class="brandLogosSize" src="assets/images/airbnb-white.svg" alt="Airbnb">
+                            <img class="brandLogosSize" src="assets/images/paypal-white.svg" alt="Paypal">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="manageCard bg-secondary" style="width:300px; border-radius: 15px 15px 55px 15px;">
+                    <!-- <div class="accordionCard" style="width:250px"> -->
+                        <div class="spaceBetween mb-2" >
+                            <span class="font-weight-bold" >Manage Cards</span>
+                            <button type="button" class="btn btn-sm btn-secondary BuyNow" id="addNewCard">Add new</button>
+                        </div>
+                        <div class="container d-flex w-100">
+                            <div class="cardVisa text-white">
+                                <div class="visaLogo">
+                                    <img src="assets/images/mastercard.svg" style="width: 35px;" alt="Visa">
+                                    <a href="#" class="badge badge-success" style="color: white;">active</a>
+                                </div>
+                                <div class="d-flex flex-row align-items-center px-2">
+                                    <div class="dots mr-1"> </div> <span class="number">CARD NUMBER</span>
+                                </div>
+                                <div class="px-2 mt-2">
+                                    <h6>4358 - 7421 - 9256 - 6682</h6>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center mt-2 px-2 mb-2"> <span>02/24</span> <img src="https://img.icons8.com/color/48/000000/visa.png" width="40" /> </div>
+                            </div>
+                        </div>
+                        <div class="row no-gutters border-bottom mt-3">
+                            <div class="row no-gutters spaceBetween w-100">
+                                <span class="font-weight-bold">Starbucks</span>
+                                <span class="font-weight-bold">$5,50 USD</span>
+                            </div>
+                            <p>Pending - San Francisco, United States</p>
+                        </div>
+                        <div class="row no-gutters border-bottom mt-3">
+                            <div class="row no-gutters spaceBetween w-100">
+                                <span class="font-weight-bold">Nike Sports</span>
+                                <span class="font-weight-bold">$129,00 USD</span>
+                            </div>
+                            <p>Pending - Lisbon, Portugal</p>
+                        </div>
+                        <a href="#" id="viewAllCard">View all</a>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="oblicLine bg-primary"></div>
+    </div>
+
+<!-- SECOND CONTAINER ------------------ -->
+
+    <div class="row page-margin mb-5 pt-5">
+        <div class="col-7">
+            <div class="progression w-75 rounded p-5 shadow">
+                <h5 class="font-weight-bold ">Awesome projects</h5>
+                <div class="flexRow spaceBetween border-bottom border-warning pt-4">
+                    <p class="font-weight-bold">Create the new logo</p>
+                </div>
+                <div class="flexRow spaceBetween border-bottom border-warning pt-4">
+                    <p class="font-weight-bold">Set up the color palette</p>
+                </div>
+                <div class="flexRow spaceBetween border-bottom border-warning pt-4">
+                    <p class="font-weight-bold">Wireframe and prototype</p>
+                    <p>6:50</p>
+                </div>
+            </div>
+            <div class="firstImage"></div>
+            <!-- <img class="w-50 rounded meeting-img" src="assets/images/img_01.jpg" alt="meeting"> -->
+        </div>
+        <div class="col-5 pr-2">
+            <a href="#" class="badge-pill badge-warning badgesRounded">Tool</a>
+            <h3  class="font-weight-bold pt-4">We build for designers and developers</h3>
+            <p class="pt-4">Get components and examples, including tons of variables that will help you grow your business.</p>
+        </div>
+    </div>
+
+    <div class="row page-margin mb-5">
+        <div class="col-6 " style="margin: auto;" >
+            <a href="#" class="badge-pill badge-success badgesRounded">Features</a>
+            <p  class="font-weight-bold pt-4 w-75">Get components and examples, including tons of variables that will help you grow your business.</p>
+            <span class="row no-gutters d-flex align-items-center">
+                <i class="fas fa-check-square Success"></i>
+                <p class="text-success mb-0 ml-3">Perfect for modern startups</p>
+            </span>
+            <span class="row no-gutters d-flex align-items-center">
+                <i class="fas fa-check-square Success"></i>
+                <p class="text-success mb-0 ml-3">Fully customizable and scalable</p>
+            </span>
+        </div>
+        <div class="col-6">
+            <img src="assets/images/img_02.jpg" class="img-fluid secondImage" alt="SecondVideo">
+        </div>
+    </div>
+
+    <div class="row page-margin mb-5">
+        <div class="col-6 d-flex align-center" >
+            <div class="leftCards mr-3">
+                <div class="jim mb-3">
+                    <div class="JimHen">
+                        <img class="jimSize " src="assets/images/person_03.jpg" alt="Jim">
+                        <div class="d-flex justify-content-around align-center" style="height: 70px;">
+                            <div class="circle bg-warning"></div>
+                            <p class="m-0">from 23 reviews</p>
+                            <i style="width: 12px; color: gray;" class="far fa-heart"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="Compo d-flex">
+                    <div class="circle bg-success"></div>
+                    <div class="text d-flex flex-column">
+                        <h6><b>300+ Components</b> </h6>
+                        <p class="m-0">Build to customized</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightCards">
+                <div class="airbnb">
+                    <a href="https://fr.airbnb.be/" class="cardAwards">
+                        <img class="awardsLogoSize " src="assets/images/airbnb.svg" alt="Google">
+                        <div class="d-flex justify-content-center">
+                            <i class="fas fa-star yellowStar"></i>
+                            <i class="fas fa-star yellowStar"></i>
+                            <i class="fas fa-star yellowStar"></i>
+                            <i class="fas fa-star yellowStar"></i>
+                            <i class="far fa-star yellowStar"></i>
+                        </div>
+                        <h6  class="font-weight-bold">4.95 out of 5 stars</h6>
+                        <p>from 23 reviews</p>
+                    </a>
+                </div>
+                <div class="uiKit mt-3">
+                    <a href="#" class="cardAwards" id="company">
+                        <img class="awardsLogoSize " src="assets/images/company_01.png" style="border-radius: 50%;width: 62px;" alt="Company">
+                        <h6  class="font-weight-bold">Website UI Kit</h6>
+                        <div class="3roundedPpl pb-3 border-bottom border-light d-flex">
+                            <img src="assets/images/person_01.jpg" class="roundedPpl" id="pp1" alt="">
+                            <img src="assets/images/person_02.jpg" class="roundedPpl" id="pp2" alt="">
+                            <img src="assets/images/person_03.jpg" class="roundedPpl" id="pp3" alt="">
+                        </div>
+                        <div class="row d-flex justify-content-around w-50">
+                            <i style="width: 12px; color: gray;" class="fas fa-paperclip"></i>
+                            <i style="width: 12px; color: gray;" class="far fa-eye"></i>
+                            <i style="width: 12px; color: gray;" class="far fa-heart"></i>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 m-auto">
+            <a href="#" class="badge-pill badge-primary badgesRounded">Technology</a>
+            <h3  class="font-weight-bold pt-4">We use the latest technologies on the market</h3>
+            <p class="pt-4">Get components and examples, including tons of variables that will help you grow your business.</p>
+            <a href="#" id="caseStudies">See case studies</a>
+        </div>
+    </div>
+
+    <div class="row page-margin mb-5">
+        <div class="col-6 " style="margin: auto;" >
+            <a href="#" class="badge-pill badge-warning badgesRounded">Easy to install</a>
+            <h3  class="font-weight-bold pt-4">Download, install and run</h3>
+            <p  class="font-weight-bold pt-4 w-75">Get components and examples, including tons of variables that will help you grow your business.</p>
+            <div class="row container d-flex justify-content-around">
+                <div class="template-demo mt-2"> 
+                    <button class="btn btn-outline-warning btn-icon-text"> 
+                        <i class="fa fa-apple btn-icon-prepend mdi-36px"></i> 
+                        <span class="d-inline-block text-left"> 
+                            <small class="font-weight-light d-block">Available on the</small> App Store </span> 
+                    </button> 
+                    <button class="btn btn-outline-warning btn-icon-text"> 
+                        <i class="fa fa-android btn-icon-prepend mdi-36px"></i> 
+                        <span class="d-inline-block text-left"> <small class="font-weight-light d-block">Get it on the</small> Google Play </span> 
+                    </button> 
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <img src="assets/images/img_03.jpg" class="img-fluid secondImage" alt="SecondVideo">
+        </div>
+    </div>
+
+    <!-- BLUE BANNER---------------------- -->
+    
+    <div class="blueBanner bg-tertiary page-margin d-flex justify-content-between align-items-center mb-5">
+        <div class="leftTextBanner w-50">
+            <h3 class="mb-3">Infinite solutions</h3>
+            <p class="mt-2">Intuitive markup, powerful and lightning-fast build tools, everything you need to turn your ideas into incredible products.</p>
+        </div>
+        <div class="rightTextBanner w-50 d-flex justify-content-end">
+            <button type="button" class="btn btn-secondary w-25 p-3 font-weight-bold" id="learnMore">Learn more <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!-- AWARDS SECTION------------- -->
+    <div class="awardsSection awardsSectionColor pt-5">
+        <a href="#" class="badge-pill badge-primary badgesRounded">Awards</a>
+        <p  class="font-weight-bold pt-4 pb-4 w-75">Awards for design, creativity, and innovation on the Internet</p>
+        <div class="cardsRow d-flex">
+            <div class="down">
+                <a href="https://fr.airbnb.be/" class="cardAwards">
+                    <img class="awardsLogoSize " src="assets/images/airbnb.svg" alt="Google">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="far fa-star yellowStar"></i>
+                    </div>
+                    <h6  class="font-weight-bold">4.95 out of 5 stars</h6>
+                    <p>from 23 reviews</p>
+                </a>
+            </div>
+            <div class="up">
+                <a href="https://www.amazon.com/" class="cardAwards">
+                    <img class="awardsLogoSize " src="assets/images/amazon.svg" alt="Google">
+                    <p>They build modern-looking websites easily using Tabs</p>
+                    <h6  class="font-weight-bold underlin"><u>Learn more</u> </h6>
+                </a>
+            </div>
+            <div class="down" id="slack">
+                <a href="https://slack.com/" class="cardAwards">
+                    <img class="awardsLogoSize " src="assets/images/slack.svg" alt="Google">
+                    <p>They build modern-looking websites easily using Tabs</p>
+                    <h6  class="font-weight-bold underlin"><u>Learn more</u> </h6>
+                </a>
+            </div>
+            <div class="up" id="spotify">
+                <a href="https://www.spotify.com/" class="cardAwards">
+                    <img class="awardsLogoSize " src="assets/images/spotify.svg" alt="Google">
+                    <div class="d-flex justify-content-center">
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="fas fa-star yellowStar"></i>
+                        <i class="far fa-star yellowStar"></i>
+                    </div>
+                    <h6  class="font-weight-bold">4.95 out of 5 stars</h6>
+                    <p>from 23 reviews</p>
+                </a>
+            </div>
+            <div class="down" id="paypal">
+                <a href="https://www.paypal.com/" class="cardAwards">
+                    <img class="awardsLogoSize " src="assets/images/paypal.svg" alt="Google">
+                    <p>They build modern-looking websites easily using Tabs</p>
+                    <h6  class="font-weight-bold underlin"><u>Learn more</u> </h6>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="oblicLine awardsSectionColor"></div>
+
+    <!-- ACCORDIONS SECTION ----------------- -->
+
+
+    <div class="accordionSection">
+
+        <div class="container text-center mb-5">
+            <h3  class="font-weight-bold pt-4">Helpful answers</h3>
+            <p>Start building fast, beautiful, and modern-looking websites in no time.</p>
+        </div>
+
+        <div class="container mb-5 mt-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="accordion">
+                        <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <i class="far fa-file accordionIcon"></i> Which license do I need?
+                            </button>
+                            </h5>
+                        </div>
+                    
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fas fa-lock accordionIcon"></i> How do I get access to my database?
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="far fa-folder accordionIcon"></i> How do I see previous orders?
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <div id="accordion">
+                        <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <i class="far fa-file accordionIcon"></i> Which license do I need?
+                            </button>
+                            </h5>
+                        </div>
+                    
+                        <div id="collapseFour" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                <i class="fas fa-lock accordionIcon"></i> How do I get access to my database?
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                <i class="far fa-folder accordionIcon"></i> How do I see previous orders?
+                            </button>
+                            </h5>
+                        </div>
+                        <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container text-center ">
+            <h4>I want to start a new project</h4>
+            <div class="doubleButtons mt-3">
+                <button type="button" class="btn btn-primary mx-auto" id="learnMore">Buy now <i class="fas fa-arrow-right"></i></button>
+                <button type="button" class="btn btn-secondary mx-auto" id="learnMore">Learn more </button>
+            </div>
+        </div>
+
+    </div>
+
+<!-- FOOTER ----------------- -->
+
+    <div class="oblicLine2 bg-tertiary"></div>
+
+    <footer class="bg-tertiary ">
+        <div class="footerContainer page-margin">
+            <div class="row no-gutters d-flex justify-content-around">
+                <div class="leftCol">
+                    <h3>Brilliant solutions for your ideas</h3>
+                    <p>Modern-looking websites</p>
+                </div>
+                <div style="width: 300px;"></div>
+                <div class="rightCol">
+                    <button type="button" class="btn btn-secondary mx-auto" id="learnMore">Documentation </button>
+                    <button type="button" class="btn btn-primary mx-auto" id="learnMore">Purchase now</button>
+                </div>
+            </div>
+            <hr style="width:50%; background-color: white;">
+            <div class="row no-gutters d-flex justify-content-between">
+                <div class="leftCol w-50">
+                    <img src="assets/images/odoo-white.svg" alt="Odoo" class="logo-resize pb-3">
+                    <p class="w-75 pb-3">Odoo attempts to bring the best development experience to designers and developers by offering the tools needed for having a quick and solid start in most web projects.</p>    
+                    <div class="iconsRow">
+                        <i class="pr-3 fas fa-basketball-ball"></i>
+                        <i class="pr-3 fab fa-github"></i>
+                        <i class="pr-3 fab fa-instagram"></i>
+                        <i class="pr-3 fab fa-facebook"></i>
+                    </div>
+                </div>
+                <div class="rightCol w-50 d-flex">
+                    <div class="col-4">
+                        <h4>Account</h4>
+                        <ul class="list-unstyled">
+                          <li><a href="#"></a></li>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">Settings</a></li>
+                          <li><a href="#">Billing</a></li>
+                          <li><a href="#">Notifications</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4>Account</h4>
+                        <ul class="list-unstyled">
+                          <li><a href="#"></a></li>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">Settings</a></li>
+                          <li><a href="#">Billing</a></li>
+                          <li><a href="#">Notifications</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <h4>Account</h4>
+                        <ul class="list-unstyled">
+                          <li><a href="#"></a></li>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">Settings</a></li>
+                          <li><a href="#">Billing</a></li>
+                          <li><a href="#">Notifications</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr style="width:50%; background-color: white;">
+            <div class="footerFooter d-flex justify-content-between">
+                <p>© Odoo. All rights reserved</p>
+                <div style="width: 350px;"></div>
+                <div class="footerLinks d-flex">
+                    <a class="ml-3" href="#">Terms</a>
+                    <a class="ml-3" href="#">Privacy</a>
+                    <a class="ml-3" href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
